@@ -597,7 +597,8 @@ function App() {
                         title: websiteConfigData.title || prev.title,
                         navTitle: websiteConfigData.navTitle || prev.navTitle,
                         favicon: websiteConfigData.favicon || prev.favicon,
-                        cardStyle: websiteConfigData.cardStyle || prev.cardStyle,
+                        //cardStyle: websiteConfigData.cardStyle || prev.cardStyle,
+                        cardStyle: websiteConfigData.cardStyle || 'detailed', //改成默认为详情页
                         passwordExpiryDays: websiteConfigData.passwordExpiryDays !== undefined ? websiteConfigData.passwordExpiryDays : prev.passwordExpiryDays
                     }));
                 }
